@@ -32,8 +32,7 @@ const orders = [
 const response2 = orders.map((item) => {
   return {
     ...item,
-    tax: 0.1,
-    total: item.total * 2
+    tax: 0.1
   };
 });
 
